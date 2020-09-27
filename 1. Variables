@@ -1,0 +1,25 @@
+/* Variables are containers which store information 
+In unity, variables can be written as
+  access_specifier data_type variable_name = value; Value is conditional as per your choice
+  
+  1.ACCESS_SPECIFIER:
+   It can be
+   a) private: can be accessed within the class but not outside the class. This can be accessed in the inspector by using [SerializedField]
+   b) public: can be accessed within as well as from outside the class
+   
+ 2.DATA_TYPE; 
+ Main four data types are:
+  a)int: all whole nos, postive as well as negative
+  b)float: all decimal nos. Always need a 'f' written after assigning a value
+  c)bool: its value can be true or false
+  d)string: its value is only letters or collection of letters. The value should always be written in ""
+  
+  3.VALUE:
+  It is the stored content of a variable
+  
+  
+Eg: public int health = 100;  
+    private float speed = 12.8f;
+    public string name = "Aniket";
+    private bool isPlayerDead = false;
+    
