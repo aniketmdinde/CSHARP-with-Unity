@@ -1,4 +1,4 @@
-/* Variables are containers which store information 
+Variables are containers which store information 
 In unity, variables can be written as
   access_specifier data_type variable_name = value; Value is conditional as per your choice
   
