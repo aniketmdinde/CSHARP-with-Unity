@@ -1,0 +1,62 @@
+It is a way of writing instructions to specify a condition
+SYNTAX:
+  if(CONDITION)
+  {
+    then run These INSTRUCTIONS
+  }
+  If the CONDITION IS TRUE, the the INSTRICTIONS will be executed
+  
+  
+   if(CONDITION)
+  {
+    then run These INSTRUCTIONS
+  }
+  else
+  {
+    then run these instructions
+  }
+  If the CONDITION is false then the instructions in the ELSE body will be executed
+  
+  
+   if(CONDITION)
+  {
+    then run These INSTRUCTIONS
+  }
+    else if(NEWCONDITION)
+  {
+    then run these instructions
+  }
+    else
+  {
+    then run these CODES
+  }
+  If the CONDITION is false then run ELSE IF body instruction by checking NEWCONDITION is true or not. If True the run the else if instructions. If False then run the else CODES
+  
+  
+  
+  eg:
+  public bool iamfine = true;
+  if(iamfine==true)
+  {
+    Debug.Log("Its True");//for printing Its True             THIS WILL BE EXECUTED SINCE CONDITION IS TRUE
+  }
+  else
+  {
+     Debug.Log("Its False");//for printing Its False
+  }
+  
+  
+  
+  
+  
+  
+  
+   public bool iamfine = true;
+  if(iamfine==false)
+  {
+    Debug.Log("Its True");//for printing Its True             
+  }
+  else
+  {
+     Debug.Log("Its False");//for printing Its False          THIS WILL BE EXECUTED SINCE CONDITION IS FALSE
+  }
